@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
     <title>starbucks website landing page</title>
    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section>
         <div class="circle"></div>
@@ -18,13 +21,28 @@
                 <li><a href="#">What's New</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="product">
+                <h3>Product Name</h3>
+                <p>Price: $5.00</p>
+                <p>price: $7.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <script src="cart.js"></script>
+      
+        </div>
+        <div id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: <span id="cart-total">$0.00</span></p>
+        </div>
         </header>
+      
         <div class="content">
             <div class="textBox">
                 <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
                 <p>Since 1971, it always has been and will always be about quality. We’re passionate about ethically sourcing only the finest Arabica coffee beans and roasting them with great care. Our passion for coffee is rivaled only by our love of sharing it.</p>
                 <a href="#" id="orderNowLink">Order now</a>
-        </div>
+             </div>
         <div class="imgBox">
         <img src="img/img1.png" class="starbucks">
         </div>
@@ -45,14 +63,17 @@
         <div class="Home"></div>
         <header>
             <a href="#"><img src="img/logo.png" class="logo"></a>
+            </header>
          
         </header>
         <div class="content">
             <div class="textBox">
                 <h2>Ready To Drink.<br>Dimana saja. <br>Kapan Saja.  <span>Starbucks® </span></h2>
                 <p>Momen Starbucks® milikmu siap kapan saja</p>
-                <a href="#" id="orderNowLink">Order now</a>
-            </div>
+                <a href="#" id="order">Order now</a>
+            </div>  
+      
+            
             <div class="blueboxx">
                 <img src="img/RTD_Espresso-Coffee_LongShadow.png copy.png"alt="Image" height="550" width="220"  class="starbuckss">
             </div>
@@ -92,14 +113,24 @@
                     <div class="textBox">
                      <h2>Nikmati makanan favorite Anda,<br> dari rumah.<br> Kapan Saja. <span>Starbucks®  </span></h2>
                      <p>Momen Starbucks® milikmu siap kapan saja</p>
-                     <a href="#" id="orderNowLink">Order now</a>
+                     <a href="#" id="orderNow">Order now</a>
                </div> 
                <div class="blueboxx">
                       <img src="img/classic-pancake-with-mapple-syrup-2.png" alt="Image" height="600" width="600"  class="starbuckss">
                     
                </div>
+               <script src="index.js"></script>
+
+
+  
+       
+
+        </div>
            
      </section>
+
+  
+    
    
 
  
